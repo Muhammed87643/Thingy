@@ -17,7 +17,10 @@
     <div class="titlebar">
       <img src="assets/icons/launcher.png" class="launcherIcon">
       <span class="closeButton" onclick="window.close()">
-        <img src="assets/icons/close.svg" class="closeIcon">
+        <img src="assets/icons/close.svg" class="buttonIcon">
+      </span>
+      <span class="minimizeButton" onclick="window.minimize()">
+        <img src="assets/icons/minimizeButton.svg" class="buttonIcon">
       </span>
     </div>
     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="sidebarIcon backIcon" :class="{ visibleBackIcon: activeTab }" @click="toggleTab()">
