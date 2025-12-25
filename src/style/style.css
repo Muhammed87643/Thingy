@@ -154,11 +154,32 @@ body {
   z-index: 1;
 }
 
-.closeIcon {
+.ButtonIcon {
   width: 11px;
 }
 
 .closeButton:hover {
+  opacity: 1;
+}
+
+.minimizeButton {
+  -webkit-app-region: no-drag;
+  opacity: .8;
+  background: #5A149750;
+  border-radius: 8px;
+  padding: 8px;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: .2s;
+  position: absolute;
+  right: 60px;
+  top: 24px;
+  z-index: 1;
+}
+
+.minimizeButton:hover {
   opacity: 1;
 }
 
