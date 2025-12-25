@@ -3,6 +3,11 @@
   src: url("../assets/typefaces/Minercraftory.ttf");
 }
 
+@font-face {
+  font-family: "Minercraft";
+  src: url("../assets/typefaces/Minercraft.ttf");
+}
+
 * {
   margin: 0;
   -webkit-user-drag: none;
@@ -181,6 +186,10 @@ body {
 
 .minimizeButton:hover {
   opacity: 1;
+}
+
+.minimizeIcon {
+  font-family: "Minercraft"
 }
 
 .content {
